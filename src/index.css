@@ -6,38 +6,29 @@ body {
   min-height: 100vh; 
 }
 
-th {
-  width: 120px;
-  padding-top:25px;
-  padding-bottom:30px;
+.recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(4, 500px);
+  grid-gap: 30px;
 }
 
-td {
-  padding: 5px;
+.recipeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
-.random {
-  height: 40px;
+.recipeCard img{
+  flex: 3;
+  
 }
 
-.Event {
-  width: 100px;
+.recipeCard h5, h6, button {
+  flex: 1
 }
-
-.Event h6, h5 {
-  line-height: 0px;
-  align-content: center;
-}
-
-.pink {
-  background-color: pink;
-}
-
-.blue {
-  background: rgb(190, 219, 229);
-}
-
-.green {
-  background: rgb(202, 245, 222)
-}
-
