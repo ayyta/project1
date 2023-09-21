@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - Recipe Cards
 
 Submitted by: Alvis Yong
 
@@ -37,7 +37,9 @@ GIF created with LiceCAP
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Initially, I treated the Event functions in the jsx files similar to innerHTML where I tried to append strings to the divs, e.g. <div> {addToGrid} <div>. However, the website keep giving me errors and printed the element events like <Event name=...> onto the body. I realized this method tried the strings I was appending to the div as <p> and the Event function that was imported was also not being used. To debug, I used the map method and used it in the div. 
+
+I learned that React allows me to interact with both Javascript and HTML together and I will keep this in mind to reduce redundant code.
 
 ## License
 
