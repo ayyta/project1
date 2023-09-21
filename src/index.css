@@ -3,14 +3,17 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh; 
+  min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .recipeGrid {
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  grid-template-rows: repeat(4, 500px);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 30px;
+  font-family: 'Roboto Slab', serif, Arial;
 }
 
 .recipeCard {
@@ -20,15 +23,50 @@ body {
   align-items: center;
   overflow:hidden;
 
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.607);
   border-radius: 20px;
+  background-color: rgba(84, 83, 83, 0.225);
 }
 
 .recipeCard img{
   flex: 3;
-  
+  max-height: 400px;
 }
 
 .recipeCard h5, h6, button {
-  flex: 1
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+
+}
+
+.recipeCard h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 3%;
+}
+
+.recipeCard h6 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 2%;
+
+}
+
+.recipeCard button {
+  margin: 5%;
+  padding: 5% 10%;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all .3 ease;
+}
+
+.recipeCard button:hover {
+  background-color: rgba(93, 89, 89, 0.468);
+  color: white;
 }
