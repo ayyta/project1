@@ -4,19 +4,19 @@ Submitted by: Alvis Yong
 
 This web app: Resource Board - Project 1
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [X] **There is a unique theme for events or resources relevant to a specific community**
+- [X] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [X] Buttons or links to a related resources are on each card component
+- [X] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
